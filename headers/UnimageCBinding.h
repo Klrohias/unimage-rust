@@ -2,7 +2,9 @@
 // From https://github.com/Klrohias/unimage-native/blob/main/src/CBinding.h 
 //
 
-#include <stdint.h>
+typedef unsigned char uint8_t;
+typedef unsigned int uint32_t;
+typedef int int32_t;
 
 void* unimage_processor_create();
 void unimage_processor_free(void* handle);
