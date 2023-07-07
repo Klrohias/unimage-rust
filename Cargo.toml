@@ -1,5 +1,6 @@
 [package]
 name = "unimage-rust"
+description = "Unimage's Rust binding" 
 version = "0.1.4"
 edition = "2021"
 license = "MIT"
